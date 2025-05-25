@@ -29,12 +29,11 @@ const SliderShow = () => {
       );
     }
   };
-
   return (
     <>
-      <div className="slider w-[40rem] h-[27rem] relative mx-auto mt-8 mb-5 pb-8 bg-stone-500 rounded-3xl">
+      <div className="slider w-[40rem] h-[27rem] relative mx-auto mt-8 mb-5 bg-stone-500 rounded-3xl">
         <Image
-          className={"w-full h-full"}
+          className={"w-full h-full rounded-3xl"}
           src={pictures[currentPage].pic}
           alt="randPic"
           width={500}
